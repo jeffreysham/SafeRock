@@ -1,0 +1,125 @@
+{
+	"top" : [ 
+			{
+            "type" : "COMMON ASSAULT",
+            "location" : {
+              "longitude" : "-76.56378",
+              "latitude" : "39.32791"
+            }
+          }, {
+            "type" : "ASSAULT BY THREAT",
+            "location" : {
+              "longitude" : "-76.62897",
+              "latitude" : "39.24772"
+            }
+          }, {
+            "type" : "COMMON ASSAULT",
+            "location" : {
+              "longitude" : "-76.58598",
+              "latitude" : "39.35138"
+            }
+          }, {
+            "type" : "COMMON ASSAULT",
+            "location" : {
+              "longitude" : "-76.61155",
+              "latitude" : "39.31119"
+            }
+          }, {
+            "type" : "COMMON ASSAULT",
+            "location" : {
+              "longitude" : "-76.64895",
+              "latitude" : "39.30904"
+            }
+          }, {
+            "type" : "AUTO THEFT",
+            "location" : {
+              "longitude" : "-76.6789",
+              "latitude" : "39.2938"
+            }
+          }, {
+            "type" : "AUTO THEFT",
+            "location" : {
+              "longitude" : "-76.68628",
+              "latitude" : "39.28253"
+            }
+          }, {
+            "type" : "COMMON ASSAULT",
+            "location" : {
+              "longitude" : "-76.65509",
+              "latitude" : "39.30866"
+            }
+          }, {
+            "type" : "AGG. ASSAULT",
+            "location" : {
+              "longitude" : "-76.58566",
+              "latitude" : "39.30685"
+            }
+          }, {
+            "type" : "ROBBERY - STREET",
+            "location" : {
+              "longitude" : "-76.61455",
+              "latitude" : "39.32232"
+            }
+          }, {
+            "type" : 10,
+            "location" : {
+              "longitude" : "-76.63707",
+              "latitude" : "39.31032"
+            }
+          }, {
+            "type" : "ROBBERY - STREET",
+            "location" : {
+              "longitude" : "-76.66696",
+              "latitude" : "39.34413"
+            }
+          }, {
+            "type" : "LARCENY FROM AUTO",
+            "location" : {
+              "longitude" : "-76.65438",
+              "latitude" : "39.31898"
+            }
+          }, {
+            "type" : "LARCENY FROM AUTO",
+            "location" : {
+              "longitude" : "-76.61731",
+              "latitude" : "39.30442"
+            }
+          }, {
+            "type" : "SHOOTING",
+            "location" : {
+              "longitude" : "-76.59589",
+              "latitude" : "39.28865"
+            }
+          }, {
+            "type" : "COMMON ASSAULT",
+            "location" : {
+              "longitude" : "-76.61687",
+              "latitude" : "39.31645"
+            }
+          }, {
+            "type" : "COMMON ASSAULT",
+            "location" : {
+              "longitude" : "-76.60541",
+              "latitude" : "39.30114"
+            }
+          }, {
+            "type" : "ROBBERY - STREET",
+            "location" : {
+              "longitude" : "-76.60879",
+              "latitude" : "39.30376"
+            }
+          }, {
+            "type" : "ROBBERY - STREET",
+            "location" : {
+              "longitude" : "-76.54675",
+              "latitude" : "39.33553"
+            }
+          }, {
+            "type" : "LARCENY FROM AUTO",
+            "location" : {
+              "longitude" : "-76.65726",
+              "latitude" : "39.27859"
+            }
+          } 
+	]	  
+}
