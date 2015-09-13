@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sendLightGreenColor">#76FF03</color>
+    <color name="sendMeduimGreenColor">#8BC34A</color>
+    <color name="sendDarkGreenColor">#558B2F</color>
+
+    <color name="sendLightRedColor">#FF1744</color>
+    <color name="sendMeduimRedColor">#F44336</color>
+    <color name="sendDarkRedColor">#C62828</color>
+
+    <color name="sendLightGreyColor">#FFFFFF</color>
+    <color name="sendMeduimGreyColor">#E0E0E0</color>
+    <color name="sendDarkGreyColor">#9E9E9E</color>
+
+    <color name="orange">#8FFF9800</color>
+    <color name="yellow">#8FFFEB3B</color>
+    <color name="green">#8F8BC34A</color>
+    <color name="red">#8FF44336</color>
+</resources>

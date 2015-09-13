@@ -1,10 +1,13 @@
 package com.example.saferock;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -17,8 +20,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import com.getpebble.android.kit.PebbleKit;
@@ -62,7 +68,11 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
     private Button searchButton;
     private EditText searchBar;
     private ArrayList<Marker> markerList;
+    private ArrayList<LatLng> latLngList;
     private PebbleKit.PebbleDataReceiver mDataReceiver;
+    private Context context = this;
+    private String previousSignal;
+    private Switch theSwitch;
 
     @Override
     public void onLocationChanged(Location location) {
@@ -78,22 +88,9 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
             tempLoc.setLongitude(latLng.longitude);
 
             float distanceBetween = currentLocation.distanceTo(tempLoc);
-            if (distanceBetween <= 400) {
+            if (distanceBetween <= 100) {
 
-                Toast.makeText(this,"DANGER DANGER DANGER", Toast.LENGTH_SHORT);
-
-                final Intent intent = new Intent("com.getpebble.action.SEND_NOTIFICATION");
-
-                final Map data = new HashMap();
-                data.put("title", "Warning");
-                data.put("body", "Dangerous Area!");
-                final JSONObject jsonData = new JSONObject(data);
-                final String notificationData = new JSONArray().put(jsonData).toString();
-
-                intent.putExtra("messageType", "PEBBLE_ALERT");
-                intent.putExtra("sender", "PebbleKit Android");
-                intent.putExtra("notificationData", notificationData);
-                sendBroadcast(intent);
+                sendNotification(null);
                 break;
             }
         }
@@ -129,10 +126,49 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
         searchBar = (EditText)findViewById(R.id.edit_text);
         searchButton = (Button)findViewById(R.id.search);
+
+        searchBar.setAlpha(1);
+        searchButton.setAlpha(1);
+
+        //searchBar.getBackground().setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP);
+        //searchButton.getBackground().setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP);
+
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(searchBar.getWindowToken(), 0);
                 findRoute();
+            }
+        });
+
+        theSwitch = (Switch)findViewById(R.id.theSwitch);
+        theSwitch.setChecked(true);
+
+        theSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    //Set Markers
+                    mMap.clear();
+                    try {
+
+                        startJSON();
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    //Set Heat Map
+                    mMap.clear();
+                    try {
+
+                        startHeatMapJSON();
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
         });
 
@@ -164,8 +200,29 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
                     // Message received, over!
                     PebbleKit.sendAckToPebble(context, transactionId);
                     Log.i("receiveData", "Got message from Pebble!");
+                    Log.i("dictionary", "dict: " + dict.toJsonString());
 
-                    callEmergencyContact();
+                    try {
+                        JSONArray jsonArray = new JSONArray(dict.toJsonString());
+                        JSONObject insideJson = jsonArray.getJSONObject(0);
+
+                        String value = insideJson.getString("value");
+
+                        if (value.equals("CwAIAAMAAAA=")) { //Back Button
+                            previousSignal = value;
+                        } else if (value.contains("GwAG")) { //Vibrate (Long)
+                            if (previousSignal.contains("GwAG")) { //2 Vibrates
+                                Log.i("vibrate", "call emergency contact");
+                                callEmergencyContact(null);
+                            }
+                            previousSignal = value;
+                        } else if (value.equals("JgAIAAAAAAA=")) { //Select
+                            previousSignal = value;
+                        }
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                 }
 
             };
@@ -173,7 +230,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
         }
     }
 
-    private void callEmergencyContact() {
+    public void callEmergencyContact(View v) {
         try {
             Intent intent = new Intent(Intent.ACTION_CALL);
 
@@ -181,9 +238,9 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
             SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
 
-            String number = settings.getString("phone_number", "");
+            String number = settings.getString("phone_number", "0");
 
-            if (number.length() > 0) {
+            if (number.length() > 1) {
                 intent.setData(Uri.parse("tel:" + number));
                 startActivity(intent);
             }
@@ -231,6 +288,31 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
     }
 
+    public String loadHeatMapFromAsset() {
+        String json = null;
+        try {
+            AssetManager assetManager = getAssets();
+            InputStream is = assetManager.open("baltimore_crime_data_heat.json");
+
+            int size = is.available();
+
+            byte[] buffer = new byte[size];
+
+            is.read(buffer);
+
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+
+    }
+
     public String loadJSONFromAsset() {
         String json = null;
         try {
@@ -267,26 +349,13 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
         mMap.setMyLocationEnabled(true);
         markerList = new ArrayList<>();
+        latLngList = new ArrayList<>();
         //CameraUpdate center=CameraUpdateFactory.newLatLng(new LatLng(mMap.getMyLocation().getLatitude(),mMap.getMyLocation().getLongitude()));
         //CameraUpdate zoom=CameraUpdateFactory.zoomTo(15);
-        LatLng firstLatLng = null;
+        LatLng firstLatLng = new LatLng(39.3299013, -76.6205177);;
         try {
-            JSONObject jsonObject = new JSONObject(loadJSONFromAsset());
-            JSONArray jsonArray = jsonObject.getJSONArray("top");
-            for (int i = 0; i < jsonArray.length();i++) {
-                JSONObject objectInside = jsonArray.getJSONObject(i);
-                JSONObject latLng = objectInside.getJSONObject("location");
-                String name = objectInside.getString("type");
-                double lat = Double.parseDouble(latLng.getString("latitude"));
-                double lng = Double.parseDouble(latLng.getString("longitude"));
-                markerList.add(mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title(name)));
-                if (i == 0) {
-                    firstLatLng = new LatLng(lat, lng);
-                }
-
-
-            }
-
+            mMap.clear();
+            startJSON();
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -313,17 +382,125 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
     }
 
-    private void findRoute(){
-        String text = searchBar.getText().toString().trim();
+    public void startHeatMapJSON() throws JSONException {
+        JSONObject jsonObject = new JSONObject(loadHeatMapFromAsset());
+        JSONArray jsonArray = jsonObject.getJSONArray("top");
+        for (int i = 0; i < jsonArray.length();i++) {
+            JSONObject objectInside = jsonArray.getJSONObject(i);
+            JSONObject latLng = objectInside.getJSONObject("location");
+            double lat = Double.parseDouble(latLng.getString("latitude"));
+            double lng = Double.parseDouble(latLng.getString("longitude"));
 
-        if (text.length() > 0) {
-            if (currentLocation != null) {
-                new RouteTask(this, currentLocation.getLatitude()+","+currentLocation.getLongitude(), text, mMap).execute();
-            } else {
-                new RouteTask(this, "Johns Hopkins University", text, mMap).execute();
+            String color = latLng.getString("color");
+
+            switch (color) {
+                case "red":
+                    markerList.add(mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).flat(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.red_square_medium))));
+                    latLngList.add(new LatLng(lat, lng));
+                    break;
+                case "orange":
+                    markerList.add(mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).flat(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.orange_square_medium))));
+                    break;
+                case "yellow":
+                    markerList.add(mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).flat(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.yellow_square_medium))));
+                    break;
+                case "green":
+                    markerList.add(mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).flat(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.green_square_medium))));
+                    break;
+                default:
+                    markerList.add(mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).flat(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.red_dot))));
+                    break;
             }
 
         }
+    }
+
+    public void startJSON() throws JSONException{
+        JSONObject jsonObject = new JSONObject(loadJSONFromAsset());
+        JSONArray jsonArray = jsonObject.getJSONArray("top");
+        for (int i = 0; i < jsonArray.length();i++) {
+            JSONObject objectInside = jsonArray.getJSONObject(i);
+            JSONObject latLng = objectInside.getJSONObject("location");
+            String name = objectInside.getString("type");
+            double lat = Double.parseDouble(latLng.getString("latitude"));
+            double lng = Double.parseDouble(latLng.getString("longitude"));
+
+            markerList.add(mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title(name).flat(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.red_dot))));
+            latLngList.add(new LatLng(lat, lng));
+        }
+    }
+
+    private void findRoute(){
+
+
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("Route Options")
+                .setPositiveButton("Safest", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        mMap.clear();
+                        String text = searchBar.getText().toString().trim();
+                        if (text.length() > 0) {
+
+                            if (currentLocation != null) {
+                                new RouteTask(context, currentLocation.getLatitude() + "," + currentLocation.getLongitude(), text, mMap, false).execute();
+                                dialog.cancel();
+                            } else {
+                                new RouteTask(context, "Johns Hopkins University", text, mMap, false).execute();
+                                dialog.cancel();
+                            }
+
+                        }
+
+
+                        /*dialog.cancel();
+                        final EditText edittext= new EditText(context);
+
+                        AlertDialog.Builder inputAlert = new AlertDialog.Builder(context);
+                        inputAlert.setTitle("Enter waypoint")
+                                .setView(edittext)
+                                .setPositiveButton("Done", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        mMap.clear();
+                                        String text = searchBar.getText().toString().trim();
+                                        String wayPointText = edittext.getText().toString().trim();
+                                        if (text.length() > 0 && wayPointText.length() > 0) {
+                                            if (currentLocation != null) {
+                                                new RouteTask(context, currentLocation.getLatitude()+","+currentLocation.getLongitude(), text, mMap, false, wayPointText).execute();
+                                                dialog.cancel();
+                                            } else {
+                                                new RouteTask(context, "Johns Hopkins University", text, mMap, false, wayPointText).execute();
+                                                dialog.cancel();
+                                            }
+                                        }
+                                    }
+                                })
+                                .setCancelable(true);
+
+                        inputAlert.create().show();*/
+                    }
+                })
+                .setNegativeButton("Fastest", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        mMap.clear();
+                        String text = searchBar.getText().toString().trim();
+                        if (text.length() > 0) {
+                            if (currentLocation != null) {
+                                new RouteTask(context, currentLocation.getLatitude() + "," + currentLocation.getLongitude(), text, mMap, true).execute();
+                                dialog.cancel();
+                            } else {
+                                new RouteTask(context, "Johns Hopkins University", text, mMap, true).execute();
+                                dialog.cancel();
+                            }
+                        }
+                    }
+                })
+                .setCancelable(true);
+        AlertDialog alertDialog = alert.create();
+        alertDialog.show();
+
     }
 
     private class RouteTask extends AsyncTask<Void, Integer, Boolean> {
@@ -332,44 +509,37 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
         private String start;
         private String end;
         private GoogleMap googleMap;
+        private boolean fastest;
+        private String waypoint;
 
-        public RouteTask(Context context, String start, String end, GoogleMap googleMap) {
+        public RouteTask(Context context, String start, String end, GoogleMap googleMap, boolean fastest) {
             this.context = context;
             this.lstLatLng = new ArrayList<LatLng>();
             this.start = start;
             this.end = end;
             this.googleMap = googleMap;
+            this.fastest = fastest;
+            this.waypoint = "";
         }
+
+        /*public RouteTask(Context context, String start, String end, GoogleMap googleMap, boolean fastest, String waypoint) {
+            this.context = context;
+            this.lstLatLng = new ArrayList<LatLng>();
+            this.start = start;
+            this.end = end;
+            this.googleMap = googleMap;
+            this.fastest = fastest;
+            this.waypoint = waypoint;
+        }*/
 
         @Override
         protected Boolean doInBackground(Void... params) {
             try {
-                final StringBuilder url = new StringBuilder("http://maps.googleapis.com/maps/api/directions/xml?sensor=false&language=pt");
-                url.append("&origin=");
-                url.append(start.replace(' ', '+'));
-                url.append("&destination=");
-                url.append(end.replace(' ', '+'));
-                final InputStream stream = new URL(url.toString()).openStream();
-                final DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
-                documentBuilderFactory.setIgnoringComments(true);
-                final DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-                final Document document = documentBuilder.parse(stream); document.getDocumentElement().normalize();
-                final String status = document.getElementsByTagName("status").item(0).getTextContent();
-                if(!"OK".equals(status)) {
-                    return false;
-                }
-                final Element elementLeg = (Element) document.getElementsByTagName("leg").item(0);
-                final NodeList nodeListStep = elementLeg.getElementsByTagName("step");
-                final int length = nodeListStep.getLength();
-                for(int i=0; i<length; i++) {
-                    final Node nodeStep = nodeListStep.item(i);
-                    if(nodeStep.getNodeType() == Node.ELEMENT_NODE) {
-                        final Element elementStep = (Element) nodeStep;
-                        decodePolylines(elementStep.getElementsByTagName("points").item(0).getTextContent());
-                    }
-                }
-                return true;
+
+                boolean result = callDirectionsServer();
+                return result;
             } catch(final Exception e) {
+                e.printStackTrace();
                 return false;
             }
         }
@@ -383,22 +553,36 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
         protected void onPostExecute(Boolean result) {
             super.onPostExecute(result);
             if(!result) {
-                Toast.makeText(context, "Error in post execute", Toast.LENGTH_SHORT).show();
+                Log.i("Error", "Error in post execute");
+                //Toast.makeText(context, "Error in post execute", Toast.LENGTH_SHORT).show();
             } else {
                 final PolylineOptions polylines = new PolylineOptions();
                 polylines.color(Color.BLUE);
+
                 for(final LatLng latLng : lstLatLng) {
                     polylines.add(latLng);
                 }
                 final MarkerOptions markerA = new MarkerOptions();
                 markerA.position(lstLatLng.get(0));
                 markerA.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
-                final MarkerOptions markerB = new MarkerOptions(); markerB.position(lstLatLng.get(lstLatLng.size()-1));
+                final MarkerOptions markerB = new MarkerOptions();
+                markerB.position(lstLatLng.get(lstLatLng.size()-1));
                 markerB.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lstLatLng.get(0), 12));
                 googleMap.addMarker(markerA);
                 googleMap.addPolyline(polylines);
                 googleMap.addMarker(markerB);
+            }
+
+            try {
+                if (theSwitch.isChecked()) {
+                    startJSON();
+                } else {
+                    startHeatMapJSON();
+                }
+
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
 
         }
@@ -408,7 +592,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
             super.onProgressUpdate(values);
         }
 
-        private void decodePolylines(final String encodedPoints) {
+        private boolean decodePolylines(final String encodedPoints) throws Exception{
             int index = 0;
             int lat = 0, lng = 0;
             while (index < encodedPoints.length()) {
@@ -426,8 +610,87 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
                 } while (b >= 0x20);
                 int dlng = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
                 lng += dlng;
-                lstLatLng.add(new LatLng((double)lat/1E5, (double)lng/1E5));
+
+                if (!fastest) {
+                    Location theLocation = new Location(provider);
+                    theLocation.setLatitude((double) lat / 1E5);
+                    theLocation.setLongitude((double) lng / 1E5);
+
+                    boolean added = false;
+
+                    for (int i = 0; i < latLngList.size(); i++) {
+
+                        LatLng latLng = latLngList.get(i);
+                        Location tempLoc = new Location(provider);
+                        tempLoc.setLatitude(latLng.latitude);
+                        tempLoc.setLongitude(latLng.longitude);
+
+                        float distanceBetween = theLocation.distanceTo(tempLoc);
+                        if (distanceBetween <= 300) {
+                            double newLat = ((double) lat / 1E5) - .001;//.00005;
+                            double newLng = (double) lng / 1E5 - .001;//.00005;
+
+                            //this.lstLatLng = new ArrayList<LatLng>();
+
+                            //waypoint+="|via:"+ newLat + "," + newLng;
+
+                            //return false;
+                            lstLatLng.add(new LatLng(newLat, newLng));
+                            added = true;
+                            break;
+                        }
+                    }
+
+                    if (!added) {
+                        lstLatLng.add(new LatLng((double) lat / 1E5, (double) lng / 1E5));
+                    }
+                } else {
+                    lstLatLng.add(new LatLng((double) lat / 1E5, (double) lng / 1E5));
+                }
+
+
             }
+            return true;
+        }
+
+        private boolean callDirectionsServer() throws Exception {
+            final StringBuilder url = new StringBuilder("http://maps.googleapis.com/maps/api/directions/xml?sensor=false&language=pt");
+            url.append("&origin=");
+            url.append(start.replace(' ', '+'));
+            url.append("&destination=");
+            url.append(end.replace(' ', '+'));
+            url.append("&mode=walking");
+            /*if (!this.fastest && waypoint.length() > 0) {
+                url.append("&waypoints=optimize:true");
+                //url.append("&waypoints=");
+                url.append(waypoint.replace(' ', '+'));
+            }*/
+
+            final InputStream stream = new URL(url.toString()).openStream();
+            final DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+            documentBuilderFactory.setIgnoringComments(true);
+            final DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+            final Document document = documentBuilder.parse(stream);
+            document.getDocumentElement().normalize();
+            final String status = document.getElementsByTagName("status").item(0).getTextContent();
+            if(!"OK".equals(status)) {
+                return false;
+            }
+            final Element elementLeg = (Element) document.getElementsByTagName("leg").item(0);
+            final NodeList nodeListStep = elementLeg.getElementsByTagName("step");
+            final int length = nodeListStep.getLength();
+            for(int i=0; i<length; i++) {
+                final Node nodeStep = nodeListStep.item(i);
+                if(nodeStep.getNodeType() == Node.ELEMENT_NODE) {
+                    final Element elementStep = (Element) nodeStep;
+                    decodePolylines(elementStep.getElementsByTagName("points").item(0).getTextContent());
+                    /*boolean theResult = decodePolylines(elementStep.getElementsByTagName("points").item(0).getTextContent());
+                    if (!theResult) {
+                        return false;
+                    }*/
+                }
+            }
+            return true;
         }
 
     }
@@ -449,11 +712,37 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.contact) {
-            Intent intent = new Intent(this, SetEmerContactActivity.class);
-            startActivity(intent);
+            changeEmerContact(null);
             return true;
+        } else if (id == R.id.sendWarning) {
+            sendNotification(null);
+        } else if (id == R.id.callContact) {
+            callEmergencyContact(null);
         }
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void changeEmerContact(View v) {
+        Intent intent = new Intent(this, SetEmerContactActivity.class);
+        startActivity(intent);
+    }
+
+    public void sendNotification(View v) {
+        Toast.makeText(this,"DANGER DANGER DANGER", Toast.LENGTH_SHORT).show();
+
+        final Intent intent = new Intent("com.getpebble.action.SEND_NOTIFICATION");
+
+        final Map data = new HashMap();
+        data.put("title", "Warning");
+        data.put("body", "Dangerous Area!");
+        final JSONObject jsonData = new JSONObject(data);
+        final String notificationData = new JSONArray().put(jsonData).toString();
+
+        intent.putExtra("messageType", "PEBBLE_ALERT");
+        intent.putExtra("sender", "PebbleKit Android");
+        intent.putExtra("notificationData", notificationData);
+        sendBroadcast(intent);
+    }
+
 }

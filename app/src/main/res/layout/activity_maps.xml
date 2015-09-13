@@ -5,22 +5,71 @@
     android:name="com.google.android.gms.maps.SupportMapFragment">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <EditText
-            android:id="@+id/edit_text"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sendLightGreyColor">
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your destination..."
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/search"/>
+            <Button
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:layout_toLeftOf="@+id/theSwitch"
+                android:layout_alignParentTop="true" />
+            <Switch
+                android:id="@+id/theSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter your destination..."
+            android:id="@+id/changeContactButton"
+            android:background="@drawable/floating_button_green"
+            android:src="@drawable/change_phone"
+            android:padding="10dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"/>
-        <Button
-            android:id="@+id/search"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="15dp"
+            android:onClick="changeEmerContact"/>
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Search"
+            android:id="@+id/callContactButton"
+            android:background="@drawable/floating_button_red"
+            android:src="@drawable/phone"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="15dp"
+            android:onClick="callEmergencyContact"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notificationButton"
+            android:background="@drawable/floating_button_grey"
+            android:src="@drawable/send_notification"
+            android:padding="10dp"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"/>
+            android:layout_alignParentBottom="true"
+            android:layout_margin="15dp"
+            android:onClick="sendNotification"/>
     </RelativeLayout>
+
 
 
     </fragment>

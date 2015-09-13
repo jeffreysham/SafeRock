@@ -43,7 +43,7 @@ public class SetEmerContactActivity extends ActionBarActivity {
 
                 SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
 
-                settings.edit().putString("phone_number",text);
+                settings.edit().putString("phone_number",text).commit();
 
                 Intent intent = new Intent(this, MapsActivity.class);
                 startActivity(intent);

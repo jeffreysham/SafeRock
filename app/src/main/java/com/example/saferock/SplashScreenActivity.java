@@ -20,7 +20,7 @@ public class SplashScreenActivity extends ActionBarActivity {
 
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
 
-        if (settings.getBoolean("my_first_time", true)) {
+        if (settings.getBoolean("my_first_time", true) || settings.getString("phone_number", "0").length() <= 1) {
             //the app is being launched for first time, do something
             Log.d("Comments", "First time");
 
