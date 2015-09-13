@@ -1,0 +1,184 @@
+n = 1000;
+%blockLength = 0.00206915657;
+blockLength = 0.01;
+
+fid = fopen('BPD_VB_Crime_Data.csv');
+C = textscan(fid, '%s %s %s %s %s %s %s %s %s %s %s %s', n, 'delimiter', ',');
+crimeDate = C{1};
+%crimeTime = C{2};
+%crimeCode = C{3};
+%location = C{4};
+description = C{5};
+%weapon = C{6};
+%post = C{7};
+%district = C{8};
+%neighborhood = C{9};
+locationLat = C{10};
+locationLong = C{11};
+%totalIncidents = C{12};
+fclose(fid);
+
+fileIDPoint = fopen('input.txt','w');
+fprintf(fileIDPoint, '\t%s\n','{');
+fprintf(fileIDPoint,'\t\t%s\n','"top": [');
+
+fileIDMap = fopen('output.txt','w');
+fprintf(fileIDMap, '\t%s\n','{');
+fprintf(fileIDMap,'\t\t%s\n','"top": [');
+
+crimeDateNorm = 1:1:n;
+crimeDateNorm(1) = -1;
+crimeDateTrans = crimeDate.';
+for m = 2:n
+    crimeDateNorm(m) = daysact(char(crimeDateTrans{m}), '09/05/2015');
+end
+
+latStart = 0.0;
+latEnd = 0.0;
+longStart = 0.0;
+longEnd = 0.0;
+firstTime = 1;
+
+for m = 4:3:3*n
+    description = char(data{m});
+    latitude = char(data{m+1});
+    latitude = str2num(latitude(:,3:end-5));
+    longitude = char(data{m+2});
+    longitude = str2num(longitude(:,1:end-7));
+    if firstTime
+        latStart = latitude;
+        latEnd = latitude;
+        longStart = longitude
+        longEnd = longitude
+        firstTime = 0;
+    else
+        if latitude < latStart
+            latStart = latitude;
+        elseif latitude > latEnd
+            latEnd = latitude;
+        end
+        
+        if longitude < longStart
+            longStart = longitude;
+        elseif longitude > longEnd
+            longEnd = longitude;
+        end
+    end
+    
+    if strcmp(longitude, '1')
+        continue
+    else
+        fprintf(fileIDPoint, '\t\t\t{ "%s": "%s",\n','type',description);
+        fprintf(fileIDPoint, '\t\t\t\t"%s": {\n','location');
+        fprintf(fileIDPoint, '\t\t\t\t\t"%s": "%s",\n','latitude', latitude);
+        fprintf(fileIDPoint, '\t\t\t\t\t"%s": "%s"\n','longitude', longitude);
+        fprintf(fileIDPoint, '\t\t\t\t}\n');
+        if m + 3 >= 3*n
+            fprintf(fileIDPoint, '\t\t\t}\n');
+        else
+            fprintf(fileIDPoint, '\t\t\t},\n\n');
+        end
+    end
+end
+
+latLength = int64((latEnd - latStart)/blockLength)+1;
+longLength = int64((longEnd - longStart)/blockLength)+1;
+
+heatArray = zeros(longLength, latLength);
+
+top = 0;
+
+for m = 4:3:3*n
+    description = char(data{m});
+    latitude = char(data{m+1});
+    latitude = str2num(latitude(:,3:end-5));
+    longitude = char(data{m+2});
+    longitude = str2num(longitude(:,1:end-7));
+    if strcmp(longitude, '1')
+        continue
+    else
+        latitudeNorm = int64((latitude - latStart)/blockLength)+1;
+        longitudeNorm = int64((longitude - longStart)/blockLength)+1;
+        heatArray(longitudeNorm, latitudeNorm) = heatArray(longitudeNorm, latitudeNorm) + 1;
+        
+        if heatArray(longitudeNorm, latitudeNorm) > top
+            top = heatArray(longitudeNorm, latitudeNorm);
+        end
+    end
+end
+
+count = 0;
+
+for i = 1:1:longLength
+    for j = 1:1:latLength
+        if heatArray(i,j) == 0
+            continue
+        else
+            count = count + 1;
+        end
+    end
+end
+
+heatArrayTogether = zeros(1, count);
+
+counter = 1;
+
+for i = 1:1:longLength
+    for j = 1:1:latLength
+        
+        if heatArray(i,j) ~= 0
+            heatArrayTogether(counter) = heatArray(i,j);
+            counter = counter + 1;
+        end
+    end
+end
+
+heatArrayTogether = heatArrayTogether.';
+
+disp(heatArrayTogether);
+disp(iqr(heatArrayTogether));
+disp(median(heatArrayTogether));
+disp(sort(heatArrayTogether));
+
+for i = 1:1:longLength
+    for j = 1:1:latLength
+        if heatArray(i,j) == 0
+            color = 'green';
+        elseif heatArray(i,j) <= 3
+            color = 'yellow';
+        elseif heatArray(i,j) <= 7
+            color = 'orange';
+        else
+            color = 'red';
+        end
+        
+        fprintf(fileIDMap, '\t\t\t{\n');
+        fprintf(fileIDMap, '\t\t\t\t"%s": {\n','location');
+        
+        disp(blockLength);
+        disp(latStart);
+        disp(latStart + i .* blockLength);
+        fprintf(fileIDMap, '\t\t\t\t\t"%s": "%.4f",\n','latitude', double(i) .* blockLength + latStart - blockLength ./ 2);
+        fprintf(fileIDMap, '\t\t\t\t\t"%s": "%.4f",\n','longitude', double(j) .* blockLength + longStart - blockLength ./ 2);
+        fprintf(fileIDMap, '\t\t\t\t\t"%s": "%s"\n','color', color);
+        fprintf(fileIDMap, '\t\t\t\t}\n');
+        if i >= longLength
+            if j >= latLength
+                fprintf(fileIDMap, '\t\t\t}\n');
+            else
+                fprintf(fileIDMap, '\t\t\t},\n\n');
+            end
+        else
+            fprintf(fileIDMap, '\t\t\t},\n\n');
+        end
+    end
+end
+        
+
+fprintf(fileIDPoint, '\t\t%s\n',']');
+fprintf(fileIDPoint, '\t%s','}');
+fclose(fileIDPoint);
+
+fprintf(fileIDMap, '\t\t%s\n',']');
+fprintf(fileIDMap, '\t%s','}');
+fclose(fileIDMap);
