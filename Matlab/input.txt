@@ -1,0 +1,6996 @@
+	{
+		"top": [
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.932749e+01",
+					"longitude": "-7.659296e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.928105e+01",
+					"longitude": "-7.653634e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.924575e+01",
+					"longitude": "-7.662832e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.924575e+01",
+					"longitude": "-7.662832e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.932852e+01",
+					"longitude": "-7.660779e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929184e+01",
+					"longitude": "-7.658675e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928996e+01",
+					"longitude": "-7.659389e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928076e+01",
+					"longitude": "-7.664895e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.924254e+01",
+					"longitude": "-7.662289e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933286e+01",
+					"longitude": "-7.653542e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.923188e+01",
+					"longitude": "-7.659248e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929930e+01",
+					"longitude": "-7.662075e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.931148e+01",
+					"longitude": "-7.658453e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.932669e+01",
+					"longitude": "-7.656023e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928625e+01",
+					"longitude": "-7.659929e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930695e+01",
+					"longitude": "-7.664010e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933946e+01",
+					"longitude": "-7.666671e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929030e+01",
+					"longitude": "-7.658977e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.934267e+01",
+					"longitude": "-7.664008e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.924646e+01",
+					"longitude": "-7.662889e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928761e+01",
+					"longitude": "-7.653982e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.934167e+01",
+					"longitude": "-7.655310e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935843e+01",
+					"longitude": "-7.657933e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.934137e+01",
+					"longitude": "-7.655461e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.931644e+01",
+					"longitude": "-7.657962e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929595e+01",
+					"longitude": "-7.657355e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.929248e+01",
+					"longitude": "-7.661538e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929043e+01",
+					"longitude": "-7.665181e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.935972e+01",
+					"longitude": "-7.659442e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.931181e+01",
+					"longitude": "-7.662831e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928095e+01",
+					"longitude": "-7.657833e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.922117e+01",
+					"longitude": "-7.658809e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.935088e+01",
+					"longitude": "-7.659514e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.925104e+01",
+					"longitude": "-7.664472e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929391e+01",
+					"longitude": "-7.664628e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.926587e+01",
+					"longitude": "-7.665494e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.925336e+01",
+					"longitude": "-7.662640e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.935000e+01",
+					"longitude": "-7.653612e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928725e+01",
+					"longitude": "-7.659846e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929007e+01",
+					"longitude": "-7.656929e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929436e+01",
+					"longitude": "-7.658418e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.928077e+01",
+					"longitude": "-7.664895e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929760e+01",
+					"longitude": "-7.666812e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.933943e+01",
+					"longitude": "-7.653944e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928388e+01",
+					"longitude": "-7.660031e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927763e+01",
+					"longitude": "-7.662650e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929283e+01",
+					"longitude": "-7.662761e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931534e+01",
+					"longitude": "-7.667689e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929037e+01",
+					"longitude": "-7.661456e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929402e+01",
+					"longitude": "-7.661819e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929270e+01",
+					"longitude": "-7.657696e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928248e+01",
+					"longitude": "-7.659352e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.932563e+01",
+					"longitude": "-7.657996e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927823e+01",
+					"longitude": "-7.654097e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928810e+01",
+					"longitude": "-7.664888e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930395e+01",
+					"longitude": "-7.662641e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.927931e+01",
+					"longitude": "-7.663643e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930395e+01",
+					"longitude": "-7.662641e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933535e+01",
+					"longitude": "-7.656272e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.935959e+01",
+					"longitude": "-7.659441e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933925e+01",
+					"longitude": "-7.659812e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.935618e+01",
+					"longitude": "-7.661624e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930029e+01",
+					"longitude": "-7.654610e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927703e+01",
+					"longitude": "-7.656732e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932124e+01",
+					"longitude": "-7.661557e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.927678e+01",
+					"longitude": "-7.661440e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929041e+01",
+					"longitude": "-7.668913e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.923195e+01",
+					"longitude": "-7.659271e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929041e+01",
+					"longitude": "-7.668913e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929291e+01",
+					"longitude": "-7.659802e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930324e+01",
+					"longitude": "-7.664465e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930945e+01",
+					"longitude": "-7.665483e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931945e+01",
+					"longitude": "-7.669132e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928844e+01",
+					"longitude": "-7.659379e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928299e+01",
+					"longitude": "-7.660286e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929919e+01",
+					"longitude": "-7.659991e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928138e+01",
+					"longitude": "-7.663236e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930108e+01",
+					"longitude": "-7.659102e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928670e+01",
+					"longitude": "-7.660774e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932432e+01",
+					"longitude": "-7.654078e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930939e+01",
+					"longitude": "-7.666055e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.934942e+01",
+					"longitude": "-7.653677e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.935658e+01",
+					"longitude": "-7.668968e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930502e+01",
+					"longitude": "-7.654530e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929179e+01",
+					"longitude": "-7.668146e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928646e+01",
+					"longitude": "-7.663954e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929248e+01",
+					"longitude": "-7.658194e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935302e+01",
+					"longitude": "-7.660129e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.935107e+01",
+					"longitude": "-7.659332e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933270e+01",
+					"longitude": "-7.660367e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935450e+01",
+					"longitude": "-7.653094e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928377e+01",
+					"longitude": "-7.664540e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934271e+01",
+					"longitude": "-7.655194e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928138e+01",
+					"longitude": "-7.663236e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933395e+01",
+					"longitude": "-7.662696e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930035e+01",
+					"longitude": "-7.664448e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928933e+01",
+					"longitude": "-7.665055e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929164e+01",
+					"longitude": "-7.661729e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.933569e+01",
+					"longitude": "-7.653171e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.934920e+01",
+					"longitude": "-7.654092e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - CARJACKING",
+				"location": {
+					"latitude": "3.931830e+01",
+					"longitude": "-7.660366e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.932567e+01",
+					"longitude": "-7.657508e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.932567e+01",
+					"longitude": "-7.657508e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932385e+01",
+					"longitude": "-7.659747e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.925358e+01",
+					"longitude": "-7.662586e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.931100e+01",
+					"longitude": "-7.661675e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.927062e+01",
+					"longitude": "-7.661156e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930691e+01",
+					"longitude": "-7.664712e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928758e+01",
+					"longitude": "-7.660240e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932156e+01",
+					"longitude": "-7.657372e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929099e+01",
+					"longitude": "-7.656428e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933262e+01",
+					"longitude": "-7.670101e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928620e+01",
+					"longitude": "-7.661750e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929506e+01",
+					"longitude": "-7.657997e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929789e+01",
+					"longitude": "-7.665338e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930850e+01",
+					"longitude": "-7.659627e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929244e+01",
+					"longitude": "-7.661181e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.923301e+01",
+					"longitude": "-7.659172e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927260e+01",
+					"longitude": "-7.661004e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935546e+01",
+					"longitude": "-7.661247e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930365e+01",
+					"longitude": "-7.654979e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929487e+01",
+					"longitude": "-7.658208e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934209e+01",
+					"longitude": "-7.654589e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931004e+01",
+					"longitude": "-7.670308e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932136e+01",
+					"longitude": "-7.661448e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.935600e+01",
+					"longitude": "-7.660993e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934939e+01",
+					"longitude": "-7.669262e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929518e+01",
+					"longitude": "-7.657585e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931218e+01",
+					"longitude": "-7.659316e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928790e+01",
+					"longitude": "-7.653627e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930760e+01",
+					"longitude": "-7.663554e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929939e+01",
+					"longitude": "-7.660264e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932381e+01",
+					"longitude": "-7.665658e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928854e+01",
+					"longitude": "-7.655819e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929061e+01",
+					"longitude": "-7.660888e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928240e+01",
+					"longitude": "-7.659288e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.934533e+01",
+					"longitude": "-7.662211e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.931915e+01",
+					"longitude": "-7.659638e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929920e+01",
+					"longitude": "-7.663482e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.932135e+01",
+					"longitude": "-7.670734e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930887e+01",
+					"longitude": "-7.663401e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.932406e+01",
+					"longitude": "-7.654987e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932789e+01",
+					"longitude": "-7.666513e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.930893e+01",
+					"longitude": "-7.667113e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931328e+01",
+					"longitude": "-7.664628e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.927264e+01",
+					"longitude": "-7.667507e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.927264e+01",
+					"longitude": "-7.667507e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929104e+01",
+					"longitude": "-7.659171e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.935709e+01",
+					"longitude": "-7.657258e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932601e+01",
+					"longitude": "-7.655121e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.934249e+01",
+					"longitude": "-7.654391e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.932929e+01",
+					"longitude": "-7.666730e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930065e+01",
+					"longitude": "-7.660267e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.930965e+01",
+					"longitude": "-7.663914e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930965e+01",
+					"longitude": "-7.663914e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929049e+01",
+					"longitude": "-7.661252e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929877e+01",
+					"longitude": "-7.662880e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929906e+01",
+					"longitude": "-7.660381e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.928599e+01",
+					"longitude": "-7.656714e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932814e+01",
+					"longitude": "-7.663263e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933506e+01",
+					"longitude": "-7.668471e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931676e+01",
+					"longitude": "-7.661535e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928045e+01",
+					"longitude": "-7.657307e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934387e+01",
+					"longitude": "-7.662978e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.934370e+01",
+					"longitude": "-7.660001e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.934161e+01",
+					"longitude": "-7.666617e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.934193e+01",
+					"longitude": "-7.666531e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936609e+01",
+					"longitude": "-7.668960e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933112e+01",
+					"longitude": "-7.663143e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.935857e+01",
+					"longitude": "-7.657572e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929446e+01",
+					"longitude": "-7.663226e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930994e+01",
+					"longitude": "-7.664593e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928697e+01",
+					"longitude": "-7.659654e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928697e+01",
+					"longitude": "-7.659654e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929047e+01",
+					"longitude": "-7.661093e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927415e+01",
+					"longitude": "-7.662791e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928761e+01",
+					"longitude": "-7.659370e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930548e+01",
+					"longitude": "-7.657568e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.926166e+01",
+					"longitude": "-7.666527e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.934213e+01",
+					"longitude": "-7.668230e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928327e+01",
+					"longitude": "-7.662659e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931446e+01",
+					"longitude": "-7.661513e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931334e+01",
+					"longitude": "-7.661393e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.934221e+01",
+					"longitude": "-7.668251e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930691e+01",
+					"longitude": "-7.664541e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933664e+01",
+					"longitude": "-7.664052e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929215e+01",
+					"longitude": "-7.656748e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.923316e+01",
+					"longitude": "-7.659733e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928372e+01",
+					"longitude": "-7.667831e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929988e+01",
+					"longitude": "-7.661584e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933419e+01",
+					"longitude": "-7.660287e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928841e+01",
+					"longitude": "-7.659587e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.928760e+01",
+					"longitude": "-7.659457e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935193e+01",
+					"longitude": "-7.655160e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929282e+01",
+					"longitude": "-7.667289e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930441e+01",
+					"longitude": "-7.659238e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929479e+01",
+					"longitude": "-7.657880e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928988e+01",
+					"longitude": "-7.665048e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935852e+01",
+					"longitude": "-7.655604e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932852e+01",
+					"longitude": "-7.660119e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934383e+01",
+					"longitude": "-7.662881e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932748e+01",
+					"longitude": "-7.660450e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934504e+01",
+					"longitude": "-7.666242e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931112e+01",
+					"longitude": "-7.666980e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931467e+01",
+					"longitude": "-7.660655e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929205e+01",
+					"longitude": "-7.659809e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930980e+01",
+					"longitude": "-7.657309e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930343e+01",
+					"longitude": "-7.661605e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931325e+01",
+					"longitude": "-7.661552e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927408e+01",
+					"longitude": "-7.662769e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931800e+01",
+					"longitude": "-7.665821e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936286e+01",
+					"longitude": "-7.658390e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934380e+01",
+					"longitude": "-7.660190e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929950e+01",
+					"longitude": "-7.662965e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.934340e+01",
+					"longitude": "-7.664367e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934929e+01",
+					"longitude": "-7.654459e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927577e+01",
+					"longitude": "-7.662906e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935761e+01",
+					"longitude": "-7.670417e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934042e+01",
+					"longitude": "-7.656908e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927404e+01",
+					"longitude": "-7.661264e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930902e+01",
+					"longitude": "-7.664808e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928667e+01",
+					"longitude": "-7.656499e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928091e+01",
+					"longitude": "-7.659501e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.923193e+01",
+					"longitude": "-7.659930e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936184e+01",
+					"longitude": "-7.654752e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927682e+01",
+					"longitude": "-7.661437e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929601e+01",
+					"longitude": "-7.667289e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929223e+01",
+					"longitude": "-7.657532e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935207e+01",
+					"longitude": "-7.660980e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927353e+01",
+					"longitude": "-7.661190e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931868e+01",
+					"longitude": "-7.665399e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.935937e+01",
+					"longitude": "-7.669016e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929332e+01",
+					"longitude": "-7.665662e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929513e+01",
+					"longitude": "-7.665793e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929814e+01",
+					"longitude": "-7.662794e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928115e+01",
+					"longitude": "-7.659462e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927346e+01",
+					"longitude": "-7.661331e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929786e+01",
+					"longitude": "-7.657939e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929462e+01",
+					"longitude": "-7.665939e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928027e+01",
+					"longitude": "-7.661572e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.930906e+01",
+					"longitude": "-7.666952e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.930906e+01",
+					"longitude": "-7.666952e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.930906e+01",
+					"longitude": "-7.666952e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927441e+01",
+					"longitude": "-7.661329e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.927030e+01",
+					"longitude": "-7.661165e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.923361e+01",
+					"longitude": "-7.660530e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932612e+01",
+					"longitude": "-7.661472e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928800e+01",
+					"longitude": "-7.661369e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928419e+01",
+					"longitude": "-7.663115e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.927408e+01",
+					"longitude": "-7.662769e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931530e+01",
+					"longitude": "-7.659346e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.936271e+01",
+					"longitude": "-7.655243e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928935e+01",
+					"longitude": "-7.661945e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930799e+01",
+					"longitude": "-7.658089e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.936605e+01",
+					"longitude": "-7.664768e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934843e+01",
+					"longitude": "-7.667491e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928126e+01",
+					"longitude": "-7.657318e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930988e+01",
+					"longitude": "-7.661651e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.931827e+01",
+					"longitude": "-7.667109e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929164e+01",
+					"longitude": "-7.661826e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.931522e+01",
+					"longitude": "-7.661818e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.936033e+01",
+					"longitude": "-7.656665e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928422e+01",
+					"longitude": "-7.664500e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927372e+01",
+					"longitude": "-7.653524e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.929248e+01",
+					"longitude": "-7.661538e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930602e+01",
+					"longitude": "-7.663360e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932802e+01",
+					"longitude": "-7.670075e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929164e+01",
+					"longitude": "-7.661729e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.936325e+01",
+					"longitude": "-7.670835e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933193e+01",
+					"longitude": "-7.654262e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932268e+01",
+					"longitude": "-7.668043e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930190e+01",
+					"longitude": "-7.667078e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934609e+01",
+					"longitude": "-7.665486e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934929e+01",
+					"longitude": "-7.654459e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.930140e+01",
+					"longitude": "-7.661970e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.935914e+01",
+					"longitude": "-7.660295e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930764e+01",
+					"longitude": "-7.661637e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928729e+01",
+					"longitude": "-7.658508e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929241e+01",
+					"longitude": "-7.667379e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.936479e+01",
+					"longitude": "-7.657221e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928657e+01",
+					"longitude": "-7.661214e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931800e+01",
+					"longitude": "-7.665821e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "",
+					"longitude": ""
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933350e+01",
+					"longitude": "-7.660548e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931019e+01",
+					"longitude": "-7.663904e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929046e+01",
+					"longitude": "-7.661950e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930330e+01",
+					"longitude": "-7.661256e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927807e+01",
+					"longitude": "-7.661448e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929150e+01",
+					"longitude": "-7.656552e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.930812e+01",
+					"longitude": "-7.661355e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.937169e+01",
+					"longitude": "-7.670090e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928742e+01",
+					"longitude": "-7.658711e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928649e+01",
+					"longitude": "-7.664029e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929094e+01",
+					"longitude": "-7.660515e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927393e+01",
+					"longitude": "-7.654012e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933271e+01",
+					"longitude": "-7.663550e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934930e+01",
+					"longitude": "-7.656414e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928169e+01",
+					"longitude": "-7.668388e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.935806e+01",
+					"longitude": "-7.667712e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928343e+01",
+					"longitude": "-7.665581e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929795e+01",
+					"longitude": "-7.663525e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928775e+01",
+					"longitude": "-7.659650e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.929592e+01",
+					"longitude": "-7.657788e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930540e+01",
+					"longitude": "-7.657699e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.927761e+01",
+					"longitude": "-7.666939e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927900e+01",
+					"longitude": "-7.665924e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930504e+01",
+					"longitude": "-7.665257e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.936054e+01",
+					"longitude": "-7.659749e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928939e+01",
+					"longitude": "-7.667467e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935207e+01",
+					"longitude": "-7.660980e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.923856e+01",
+					"longitude": "-7.660973e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.928932e+01",
+					"longitude": "-7.667480e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.928932e+01",
+					"longitude": "-7.667480e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928210e+01",
+					"longitude": "-7.655740e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929703e+01",
+					"longitude": "-7.658073e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936461e+01",
+					"longitude": "-7.660270e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932829e+01",
+					"longitude": "-7.660813e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929061e+01",
+					"longitude": "-7.661029e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927466e+01",
+					"longitude": "-7.666799e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931015e+01",
+					"longitude": "-7.665592e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928530e+01",
+					"longitude": "-7.665414e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.932891e+01",
+					"longitude": "-7.656451e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.933811e+01",
+					"longitude": "-7.670366e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934187e+01",
+					"longitude": "-7.666132e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928181e+01",
+					"longitude": "-7.668138e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928725e+01",
+					"longitude": "-7.660306e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.936479e+01",
+					"longitude": "-7.657221e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933486e+01",
+					"longitude": "-7.660685e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928368e+01",
+					"longitude": "-7.658995e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.932974e+01",
+					"longitude": "-7.655751e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.932974e+01",
+					"longitude": "-7.655751e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928802e+01",
+					"longitude": "-7.662891e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930265e+01",
+					"longitude": "-7.661319e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927969e+01",
+					"longitude": "-7.660637e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929853e+01",
+					"longitude": "-7.665345e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.922969e+01",
+					"longitude": "-7.659149e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930892e+01",
+					"longitude": "-7.664432e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933347e+01",
+					"longitude": "-7.660573e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930786e+01",
+					"longitude": "-7.663119e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933868e+01",
+					"longitude": "-7.660877e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930021e+01",
+					"longitude": "-7.657491e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934344e+01",
+					"longitude": "-7.666748e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.925146e+01",
+					"longitude": "-7.664690e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.925146e+01",
+					"longitude": "-7.664690e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933901e+01",
+					"longitude": "-7.660191e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928674e+01",
+					"longitude": "-7.660269e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.925250e+01",
+					"longitude": "-7.665185e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936707e+01",
+					"longitude": "-7.670333e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930157e+01",
+					"longitude": "-7.664024e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930090e+01",
+					"longitude": "-7.667115e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931080e+01",
+					"longitude": "-7.659083e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929715e+01",
+					"longitude": "-7.666419e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929472e+01",
+					"longitude": "-7.665715e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931522e+01",
+					"longitude": "-7.667047e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.935005e+01",
+					"longitude": "-7.666192e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928474e+01",
+					"longitude": "-7.665676e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.923626e+01",
+					"longitude": "-7.661393e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.927795e+01",
+					"longitude": "-7.665867e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.936137e+01",
+					"longitude": "-7.669338e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928676e+01",
+					"longitude": "-7.660774e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932908e+01",
+					"longitude": "-7.660780e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931677e+01",
+					"longitude": "-7.659579e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928476e+01",
+					"longitude": "-7.658640e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929431e+01",
+					"longitude": "-7.658929e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929133e+01",
+					"longitude": "-7.658597e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928298e+01",
+					"longitude": "-7.656966e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932384e+01",
+					"longitude": "-7.658973e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932440e+01",
+					"longitude": "-7.660828e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930310e+01",
+					"longitude": "-7.657943e+01"
+				}
+			},
+
+			{ "type": "RAPE",
+				"location": {
+					"latitude": "3.930155e+01",
+					"longitude": "-7.662738e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.934499e+01",
+					"longitude": "-7.658854e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933216e+01",
+					"longitude": "-7.661340e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936823e+01",
+					"longitude": "-7.658701e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935940e+01",
+					"longitude": "-7.653841e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928515e+01",
+					"longitude": "-7.657932e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933082e+01",
+					"longitude": "-7.660731e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930731e+01",
+					"longitude": "-7.664638e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929672e+01",
+					"longitude": "-7.658855e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928676e+01",
+					"longitude": "-7.660774e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.929244e+01",
+					"longitude": "-7.657149e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933946e+01",
+					"longitude": "-7.664355e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929169e+01",
+					"longitude": "-7.657325e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.929976e+01",
+					"longitude": "-7.658715e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928818e+01",
+					"longitude": "-7.656640e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.935744e+01",
+					"longitude": "-7.667505e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.935400e+01",
+					"longitude": "-7.659538e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929247e+01",
+					"longitude": "-7.658743e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929367e+01",
+					"longitude": "-7.657837e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.923748e+01",
+					"longitude": "-7.661007e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929159e+01",
+					"longitude": "-7.662110e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.933412e+01",
+					"longitude": "-7.662588e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929398e+01",
+					"longitude": "-7.660297e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929430e+01",
+					"longitude": "-7.657559e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931029e+01",
+					"longitude": "-7.663780e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930812e+01",
+					"longitude": "-7.664371e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929372e+01",
+					"longitude": "-7.657774e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.926792e+01",
+					"longitude": "-7.667482e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931618e+01",
+					"longitude": "-7.659384e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.935617e+01",
+					"longitude": "-7.657601e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935402e+01",
+					"longitude": "-7.660931e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928411e+01",
+					"longitude": "-7.664217e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928703e+01",
+					"longitude": "-7.664905e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929703e+01",
+					"longitude": "-7.658505e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933096e+01",
+					"longitude": "-7.669447e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927532e+01",
+					"longitude": "-7.654048e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934179e+01",
+					"longitude": "-7.663743e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.937027e+01",
+					"longitude": "-7.659250e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930808e+01",
+					"longitude": "-7.666987e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935193e+01",
+					"longitude": "-7.655160e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.936472e+01",
+					"longitude": "-7.659250e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935193e+01",
+					"longitude": "-7.655160e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928327e+01",
+					"longitude": "-7.668474e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.932651e+01",
+					"longitude": "-7.665854e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928681e+01",
+					"longitude": "-7.656308e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932479e+01",
+					"longitude": "-7.660221e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933182e+01",
+					"longitude": "-7.654324e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936031e+01",
+					"longitude": "-7.665836e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934277e+01",
+					"longitude": "-7.663229e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.935882e+01",
+					"longitude": "-7.658536e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931167e+01",
+					"longitude": "-7.658383e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933727e+01",
+					"longitude": "-7.660829e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932385e+01",
+					"longitude": "-7.662971e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.925389e+01",
+					"longitude": "-7.664941e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930903e+01",
+					"longitude": "-7.658184e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927155e+01",
+					"longitude": "-7.661310e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.933641e+01",
+					"longitude": "-7.660887e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928853e+01",
+					"longitude": "-7.667578e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.936933e+01",
+					"longitude": "-7.661110e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930764e+01",
+					"longitude": "-7.659977e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.930111e+01",
+					"longitude": "-7.659428e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928134e+01",
+					"longitude": "-7.657192e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936096e+01",
+					"longitude": "-7.664795e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932090e+01",
+					"longitude": "-7.662294e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930962e+01",
+					"longitude": "-7.665422e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927450e+01",
+					"longitude": "-7.669579e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.935700e+01",
+					"longitude": "-7.660053e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936185e+01",
+					"longitude": "-7.668064e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935376e+01",
+					"longitude": "-7.661597e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932016e+01",
+					"longitude": "-7.661221e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928107e+01",
+					"longitude": "-7.664478e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.935932e+01",
+					"longitude": "-7.654111e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929127e+01",
+					"longitude": "-7.653123e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.930101e+01",
+					"longitude": "-7.664449e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930841e+01",
+					"longitude": "-7.661035e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931585e+01",
+					"longitude": "-7.659485e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.935893e+01",
+					"longitude": "-7.653918e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927753e+01",
+					"longitude": "-7.660487e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936071e+01",
+					"longitude": "-7.656052e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936782e+01",
+					"longitude": "-7.661437e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928552e+01",
+					"longitude": "-7.658700e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927587e+01",
+					"longitude": "-7.666512e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927850e+01",
+					"longitude": "-7.656677e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.934984e+01",
+					"longitude": "-7.666407e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.936747e+01",
+					"longitude": "-7.665217e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928974e+01",
+					"longitude": "-7.663973e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930056e+01",
+					"longitude": "-7.662830e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933590e+01",
+					"longitude": "-7.662702e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.934589e+01",
+					"longitude": "-7.660151e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928290e+01",
+					"longitude": "-7.663189e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.932459e+01",
+					"longitude": "-7.657512e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.934575e+01",
+					"longitude": "-7.659422e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931774e+01",
+					"longitude": "-7.661913e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.931332e+01",
+					"longitude": "-7.667122e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.931332e+01",
+					"longitude": "-7.667122e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.931332e+01",
+					"longitude": "-7.667122e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "",
+					"longitude": ""
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930951e+01",
+					"longitude": "-7.663487e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927610e+01",
+					"longitude": "-7.661671e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928523e+01",
+					"longitude": "-7.661970e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930486e+01",
+					"longitude": "-7.654518e+01"
+				}
+			},
+
+			{ "type": "ARSON",
+				"location": {
+					"latitude": "3.931363e+01",
+					"longitude": "-7.666052e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928301e+01",
+					"longitude": "-7.662475e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935285e+01",
+					"longitude": "-7.669975e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932330e+01",
+					"longitude": "-7.654267e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.922613e+01",
+					"longitude": "-7.658753e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933997e+01",
+					"longitude": "-7.654743e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929029e+01",
+					"longitude": "-7.662743e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929141e+01",
+					"longitude": "-7.656626e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.927911e+01",
+					"longitude": "-7.657798e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.929448e+01",
+					"longitude": "-7.663196e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.934041e+01",
+					"longitude": "-7.658150e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.926424e+01",
+					"longitude": "-7.667528e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927408e+01",
+					"longitude": "-7.662769e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.925306e+01",
+					"longitude": "-7.664707e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.934482e+01",
+					"longitude": "-7.654089e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.933782e+01",
+					"longitude": "-7.666297e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928865e+01",
+					"longitude": "-7.655594e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928390e+01",
+					"longitude": "-7.665655e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928390e+01",
+					"longitude": "-7.665655e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.932083e+01",
+					"longitude": "-7.656899e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.935341e+01",
+					"longitude": "-7.655184e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928046e+01",
+					"longitude": "-7.665120e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.931884e+01",
+					"longitude": "-7.656967e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929719e+01",
+					"longitude": "-7.667914e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.935076e+01",
+					"longitude": "-7.660976e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.935076e+01",
+					"longitude": "-7.660976e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.923464e+01",
+					"longitude": "-7.660312e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930194e+01",
+					"longitude": "-7.659640e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932709e+01",
+					"longitude": "-7.657441e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934178e+01",
+					"longitude": "-7.669724e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929423e+01",
+					"longitude": "-7.663983e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936241e+01",
+					"longitude": "-7.668688e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.936559e+01",
+					"longitude": "-7.658110e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928168e+01",
+					"longitude": "-7.653789e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928168e+01",
+					"longitude": "-7.653789e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928168e+01",
+					"longitude": "-7.653789e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.929483e+01",
+					"longitude": "-7.662205e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.929483e+01",
+					"longitude": "-7.662205e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929976e+01",
+					"longitude": "-7.655806e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930682e+01",
+					"longitude": "-7.661202e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929587e+01",
+					"longitude": "-7.657355e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.936232e+01",
+					"longitude": "-7.662501e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935921e+01",
+					"longitude": "-7.670652e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928339e+01",
+					"longitude": "-7.659661e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931334e+01",
+					"longitude": "-7.659662e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932908e+01",
+					"longitude": "-7.665577e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931634e+01",
+					"longitude": "-7.654331e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927818e+01",
+					"longitude": "-7.665610e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.926770e+01",
+					"longitude": "-7.667446e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930016e+01",
+					"longitude": "-7.657613e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.936334e+01",
+					"longitude": "-7.667800e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930458e+01",
+					"longitude": "-7.658802e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930750e+01",
+					"longitude": "-7.658286e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.936273e+01",
+					"longitude": "-7.661265e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931800e+01",
+					"longitude": "-7.665821e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933202e+01",
+					"longitude": "-7.664098e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929029e+01",
+					"longitude": "-7.662316e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930990e+01",
+					"longitude": "-7.658857e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930834e+01",
+					"longitude": "-7.664487e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934594e+01",
+					"longitude": "-7.666251e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934300e+01",
+					"longitude": "-7.655154e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929925e+01",
+					"longitude": "-7.663287e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.929339e+01",
+					"longitude": "-7.669559e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931478e+01",
+					"longitude": "-7.656854e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927807e+01",
+					"longitude": "-7.661448e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930609e+01",
+					"longitude": "-7.666206e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930751e+01",
+					"longitude": "-7.658087e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.931649e+01",
+					"longitude": "-7.654326e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934507e+01",
+					"longitude": "-7.666454e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929150e+01",
+					"longitude": "-7.656552e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.931665e+01",
+					"longitude": "-7.663162e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930011e+01",
+					"longitude": "-7.657608e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935670e+01",
+					"longitude": "-7.655759e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927354e+01",
+					"longitude": "-7.667241e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929289e+01",
+					"longitude": "-7.664758e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928861e+01",
+					"longitude": "-7.662126e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929745e+01",
+					"longitude": "-7.658952e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933813e+01",
+					"longitude": "-7.667650e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933813e+01",
+					"longitude": "-7.667650e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929879e+01",
+					"longitude": "-7.661069e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928343e+01",
+					"longitude": "-7.665581e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.934809e+01",
+					"longitude": "-7.654149e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928071e+01",
+					"longitude": "-7.661119e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928857e+01",
+					"longitude": "-7.653819e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931819e+01",
+					"longitude": "-7.661706e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.933678e+01",
+					"longitude": "-7.660087e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928632e+01",
+					"longitude": "-7.661923e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931800e+01",
+					"longitude": "-7.665821e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934593e+01",
+					"longitude": "-7.659356e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929481e+01",
+					"longitude": "-7.657081e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932207e+01",
+					"longitude": "-7.659595e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929424e+01",
+					"longitude": "-7.657052e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.925377e+01",
+					"longitude": "-7.664888e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935723e+01",
+					"longitude": "-7.656783e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.931529e+01",
+					"longitude": "-7.665117e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935830e+01",
+					"longitude": "-7.660600e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927406e+01",
+					"longitude": "-7.662958e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.932852e+01",
+					"longitude": "-7.660067e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929091e+01",
+					"longitude": "-7.656934e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.926933e+01",
+					"longitude": "-7.664733e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.923057e+01",
+					"longitude": "-7.658985e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928612e+01",
+					"longitude": "-7.657943e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.934186e+01",
+					"longitude": "-7.663223e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929686e+01",
+					"longitude": "-7.664005e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928960e+01",
+					"longitude": "-7.656419e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.929883e+01",
+					"longitude": "-7.661042e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928666e+01",
+					"longitude": "-7.670334e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928640e+01",
+					"longitude": "-7.659836e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930384e+01",
+					"longitude": "-7.658988e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936693e+01",
+					"longitude": "-7.660318e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933505e+01",
+					"longitude": "-7.656820e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930027e+01",
+					"longitude": "-7.660091e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929150e+01",
+					"longitude": "-7.661979e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932829e+01",
+					"longitude": "-7.660813e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928497e+01",
+					"longitude": "-7.668823e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.934708e+01",
+					"longitude": "-7.653465e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.931245e+01",
+					"longitude": "-7.669901e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.925028e+01",
+					"longitude": "-7.661624e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.934127e+01",
+					"longitude": "-7.656354e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929529e+01",
+					"longitude": "-7.659070e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931790e+01",
+					"longitude": "-7.661468e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928654e+01",
+					"longitude": "-7.659449e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928931e+01",
+					"longitude": "-7.660428e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930363e+01",
+					"longitude": "-7.661265e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928775e+01",
+					"longitude": "-7.659134e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936208e+01",
+					"longitude": "-7.668295e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928679e+01",
+					"longitude": "-7.665530e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928726e+01",
+					"longitude": "-7.663208e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935756e+01",
+					"longitude": "-7.670439e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931456e+01",
+					"longitude": "-7.666862e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.928957e+01",
+					"longitude": "-7.661487e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.931868e+01",
+					"longitude": "-7.665399e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931440e+01",
+					"longitude": "-7.661204e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927703e+01",
+					"longitude": "-7.656732e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929440e+01",
+					"longitude": "-7.666667e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929440e+01",
+					"longitude": "-7.666667e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930151e+01",
+					"longitude": "-7.661596e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.934200e+01",
+					"longitude": "-7.662150e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932354e+01",
+					"longitude": "-7.656810e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.929451e+01",
+					"longitude": "-7.666302e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.929451e+01",
+					"longitude": "-7.666302e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.921644e+01",
+					"longitude": "-7.658767e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934300e+01",
+					"longitude": "-7.655154e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929398e+01",
+					"longitude": "-7.657493e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936627e+01",
+					"longitude": "-7.661086e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936627e+01",
+					"longitude": "-7.661086e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936627e+01",
+					"longitude": "-7.661086e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936753e+01",
+					"longitude": "-7.670610e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.936469e+01",
+					"longitude": "-7.659378e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930475e+01",
+					"longitude": "-7.664682e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932089e+01",
+					"longitude": "-7.660731e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.927891e+01",
+					"longitude": "-7.657100e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.922305e+01",
+					"longitude": "-7.658744e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.936217e+01",
+					"longitude": "-7.662015e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.930652e+01",
+					"longitude": "-7.655801e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928201e+01",
+					"longitude": "-7.658967e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.934501e+01",
+					"longitude": "-7.662715e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931884e+01",
+					"longitude": "-7.656967e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.935715e+01",
+					"longitude": "-7.670185e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.934853e+01",
+					"longitude": "-7.667510e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928927e+01",
+					"longitude": "-7.665217e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929453e+01",
+					"longitude": "-7.668409e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933468e+01",
+					"longitude": "-7.653323e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.929011e+01",
+					"longitude": "-7.661236e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928972e+01",
+					"longitude": "-7.660966e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933393e+01",
+					"longitude": "-7.653281e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.922817e+01",
+					"longitude": "-7.660202e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.934548e+01",
+					"longitude": "-7.657664e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927415e+01",
+					"longitude": "-7.662791e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.937136e+01",
+					"longitude": "-7.664755e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931335e+01",
+					"longitude": "-7.661449e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929515e+01",
+					"longitude": "-7.667918e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932070e+01",
+					"longitude": "-7.661988e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933990e+01",
+					"longitude": "-7.670139e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931695e+01",
+					"longitude": "-7.663441e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932556e+01",
+					"longitude": "-7.656300e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932080e+01",
+					"longitude": "-7.662242e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927570e+01",
+					"longitude": "-7.661220e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929934e+01",
+					"longitude": "-7.661420e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927710e+01",
+					"longitude": "-7.656538e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928288e+01",
+					"longitude": "-7.663060e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928447e+01",
+					"longitude": "-7.659128e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928533e+01",
+					"longitude": "-7.665415e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929501e+01",
+					"longitude": "-7.658485e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930035e+01",
+					"longitude": "-7.664448e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.935207e+01",
+					"longitude": "-7.660980e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.924772e+01",
+					"longitude": "-7.661868e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929029e+01",
+					"longitude": "-7.656355e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936502e+01",
+					"longitude": "-7.660992e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929029e+01",
+					"longitude": "-7.656355e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928828e+01",
+					"longitude": "-7.665748e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.932384e+01",
+					"longitude": "-7.659254e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928573e+01",
+					"longitude": "-7.659353e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928159e+01",
+					"longitude": "-7.668853e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928400e+01",
+					"longitude": "-7.658265e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930385e+01",
+					"longitude": "-7.654095e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928404e+01",
+					"longitude": "-7.663859e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936254e+01",
+					"longitude": "-7.670135e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.929673e+01",
+					"longitude": "-7.656025e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.933005e+01",
+					"longitude": "-7.666725e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935957e+01",
+					"longitude": "-7.659745e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931276e+01",
+					"longitude": "-7.663033e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.925146e+01",
+					"longitude": "-7.664690e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.925634e+01",
+					"longitude": "-7.663802e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.932961e+01",
+					"longitude": "-7.657682e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.934990e+01",
+					"longitude": "-7.666044e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934970e+01",
+					"longitude": "-7.656371e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933227e+01",
+					"longitude": "-7.656007e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933875e+01",
+					"longitude": "-7.667941e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934594e+01",
+					"longitude": "-7.666275e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928654e+01",
+					"longitude": "-7.659449e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933026e+01",
+					"longitude": "-7.670224e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.934064e+01",
+					"longitude": "-7.659308e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929118e+01",
+					"longitude": "-7.668928e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933282e+01",
+					"longitude": "-7.654287e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932792e+01",
+					"longitude": "-7.666514e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927408e+01",
+					"longitude": "-7.662769e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.926125e+01",
+					"longitude": "-7.665668e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.930395e+01",
+					"longitude": "-7.662641e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929816e+01",
+					"longitude": "-7.666159e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929617e+01",
+					"longitude": "-7.657061e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930089e+01",
+					"longitude": "-7.661757e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929569e+01",
+					"longitude": "-7.658068e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - CARJACKING",
+				"location": {
+					"latitude": "3.930497e+01",
+					"longitude": "-7.667233e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928892e+01",
+					"longitude": "-7.659164e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.930704e+01",
+					"longitude": "-7.663020e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928439e+01",
+					"longitude": "-7.659359e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.932851e+01",
+					"longitude": "-7.659001e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933958e+01",
+					"longitude": "-7.655588e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.935495e+01",
+					"longitude": "-7.655491e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934503e+01",
+					"longitude": "-7.661064e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.935565e+01",
+					"longitude": "-7.660992e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933182e+01",
+					"longitude": "-7.654324e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931028e+01",
+					"longitude": "-7.658293e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928113e+01",
+					"longitude": "-7.653635e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.933897e+01",
+					"longitude": "-7.666802e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930723e+01",
+					"longitude": "-7.659008e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929393e+01",
+					"longitude": "-7.665820e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.924667e+01",
+					"longitude": "-7.662861e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927408e+01",
+					"longitude": "-7.662769e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930775e+01",
+					"longitude": "-7.666924e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928872e+01",
+					"longitude": "-7.659942e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.927751e+01",
+					"longitude": "-7.661077e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929804e+01",
+					"longitude": "-7.658364e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929331e+01",
+					"longitude": "-7.658199e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929331e+01",
+					"longitude": "-7.658199e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932125e+01",
+					"longitude": "-7.662141e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934507e+01",
+					"longitude": "-7.668659e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - CARJACKING",
+				"location": {
+					"latitude": "3.933881e+01",
+					"longitude": "-7.666927e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935077e+01",
+					"longitude": "-7.667051e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929755e+01",
+					"longitude": "-7.663865e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935801e+01",
+					"longitude": "-7.661492e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928834e+01",
+					"longitude": "-7.664249e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930130e+01",
+					"longitude": "-7.668695e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932353e+01",
+					"longitude": "-7.657344e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930365e+01",
+					"longitude": "-7.663273e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928219e+01",
+					"longitude": "-7.664202e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931144e+01",
+					"longitude": "-7.667509e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.935922e+01",
+					"longitude": "-7.668550e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928894e+01",
+					"longitude": "-7.664702e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928557e+01",
+					"longitude": "-7.663761e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.928537e+01",
+					"longitude": "-7.657229e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930250e+01",
+					"longitude": "-7.663331e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928441e+01",
+					"longitude": "-7.659669e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.930883e+01",
+					"longitude": "-7.659155e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929905e+01",
+					"longitude": "-7.663871e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934663e+01",
+					"longitude": "-7.668262e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931177e+01",
+					"longitude": "-7.660333e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928049e+01",
+					"longitude": "-7.663659e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.932464e+01",
+					"longitude": "-7.655040e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.925146e+01",
+					"longitude": "-7.664690e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929722e+01",
+					"longitude": "-7.657295e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929099e+01",
+					"longitude": "-7.667950e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929365e+01",
+					"longitude": "-7.656886e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931245e+01",
+					"longitude": "-7.669892e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932312e+01",
+					"longitude": "-7.661952e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.931246e+01",
+					"longitude": "-7.669871e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929394e+01",
+					"longitude": "-7.665814e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929288e+01",
+					"longitude": "-7.661618e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.928062e+01",
+					"longitude": "-7.665071e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929046e+01",
+					"longitude": "-7.661950e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.936562e+01",
+					"longitude": "-7.659607e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - CARJACKING",
+				"location": {
+					"latitude": "3.931119e+01",
+					"longitude": "-7.666797e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.928062e+01",
+					"longitude": "-7.665071e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933196e+01",
+					"longitude": "-7.662941e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.934099e+01",
+					"longitude": "-7.664577e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929082e+01",
+					"longitude": "-7.667261e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931231e+01",
+					"longitude": "-7.659164e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934952e+01",
+					"longitude": "-7.654986e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927482e+01",
+					"longitude": "-7.661280e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929901e+01",
+					"longitude": "-7.666160e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928422e+01",
+					"longitude": "-7.659321e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930111e+01",
+					"longitude": "-7.661313e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929479e+01",
+					"longitude": "-7.660541e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929020e+01",
+					"longitude": "-7.659390e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.926272e+01",
+					"longitude": "-7.663762e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934585e+01",
+					"longitude": "-7.666603e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929607e+01",
+					"longitude": "-7.662766e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929157e+01",
+					"longitude": "-7.664464e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928976e+01",
+					"longitude": "-7.661015e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928976e+01",
+					"longitude": "-7.661015e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.933627e+01",
+					"longitude": "-7.667566e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928859e+01",
+					"longitude": "-7.659030e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928859e+01",
+					"longitude": "-7.659030e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927158e+01",
+					"longitude": "-7.661319e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933396e+01",
+					"longitude": "-7.656091e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.923513e+01",
+					"longitude": "-7.659939e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.930651e+01",
+					"longitude": "-7.665581e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930165e+01",
+					"longitude": "-7.657678e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.932822e+01",
+					"longitude": "-7.661095e+01"
+				}
+			},
+
+			{ "type": "ARSON",
+				"location": {
+					"latitude": "3.932206e+01",
+					"longitude": "-7.658985e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930023e+01",
+					"longitude": "-7.657669e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928275e+01",
+					"longitude": "-7.668337e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.932004e+01",
+					"longitude": "-7.655173e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934765e+01",
+					"longitude": "-7.669026e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933916e+01",
+					"longitude": "-7.655008e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932162e+01",
+					"longitude": "-7.662351e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934174e+01",
+					"longitude": "-7.668995e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932320e+01",
+					"longitude": "-7.656977e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929628e+01",
+					"longitude": "-7.656450e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928277e+01",
+					"longitude": "-7.665260e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.934089e+01",
+					"longitude": "-7.660119e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932022e+01",
+					"longitude": "-7.661225e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.927031e+01",
+					"longitude": "-7.665140e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.927914e+01",
+					"longitude": "-7.654566e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929529e+01",
+					"longitude": "-7.659129e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928707e+01",
+					"longitude": "-7.664860e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930939e+01",
+					"longitude": "-7.660081e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "",
+					"longitude": ""
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "",
+					"longitude": ""
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929853e+01",
+					"longitude": "-7.665345e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934196e+01",
+					"longitude": "-7.659108e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.932150e+01",
+					"longitude": "-7.661222e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928822e+01",
+					"longitude": "-7.663207e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934336e+01",
+					"longitude": "-7.664109e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928657e+01",
+					"longitude": "-7.655725e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932273e+01",
+					"longitude": "-7.653694e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.934078e+01",
+					"longitude": "-7.668468e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931980e+01",
+					"longitude": "-7.655065e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929061e+01",
+					"longitude": "-7.660770e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929364e+01",
+					"longitude": "-7.661674e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928623e+01",
+					"longitude": "-7.662092e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931178e+01",
+					"longitude": "-7.666332e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.931175e+01",
+					"longitude": "-7.658861e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927705e+01",
+					"longitude": "-7.656694e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.935453e+01",
+					"longitude": "-7.666234e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - CARJACKING",
+				"location": {
+					"latitude": "3.931039e+01",
+					"longitude": "-7.663566e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929415e+01",
+					"longitude": "-7.656084e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929524e+01",
+					"longitude": "-7.657998e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928829e+01",
+					"longitude": "-7.662367e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931766e+01",
+					"longitude": "-7.657819e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928299e+01",
+					"longitude": "-7.660286e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927199e+01",
+					"longitude": "-7.661612e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928228e+01",
+					"longitude": "-7.657471e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930682e+01",
+					"longitude": "-7.664123e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928344e+01",
+					"longitude": "-7.661603e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932791e+01",
+					"longitude": "-7.666513e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.929091e+01",
+					"longitude": "-7.656701e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.931720e+01",
+					"longitude": "-7.657173e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.932050e+01",
+					"longitude": "-7.654032e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934593e+01",
+					"longitude": "-7.659356e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930933e+01",
+					"longitude": "-7.660251e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927758e+01",
+					"longitude": "-7.662450e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929891e+01",
+					"longitude": "-7.661301e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931064e+01",
+					"longitude": "-7.661242e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928833e+01",
+					"longitude": "-7.660056e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930718e+01",
+					"longitude": "-7.664080e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930022e+01",
+					"longitude": "-7.667017e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.936139e+01",
+					"longitude": "-7.655362e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.932714e+01",
+					"longitude": "-7.661759e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935643e+01",
+					"longitude": "-7.660673e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928388e+01",
+					"longitude": "-7.660031e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929879e+01",
+					"longitude": "-7.658278e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928845e+01",
+					"longitude": "-7.664119e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929979e+01",
+					"longitude": "-7.667036e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929459e+01",
+					"longitude": "-7.666077e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929046e+01",
+					"longitude": "-7.661370e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927471e+01",
+					"longitude": "-7.661593e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929248e+01",
+					"longitude": "-7.656941e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.936905e+01",
+					"longitude": "-7.668145e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935549e+01",
+					"longitude": "-7.661920e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928538e+01",
+					"longitude": "-7.658881e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928869e+01",
+					"longitude": "-7.656621e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927309e+01",
+					"longitude": "-7.669073e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929900e+01",
+					"longitude": "-7.662898e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.935219e+01",
+					"longitude": "-7.653361e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.935037e+01",
+					"longitude": "-7.668588e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928709e+01",
+					"longitude": "-7.655496e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930973e+01",
+					"longitude": "-7.656312e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928950e+01",
+					"longitude": "-7.657311e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934915e+01",
+					"longitude": "-7.668852e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.923606e+01",
+					"longitude": "-7.660785e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.923357e+01",
+					"longitude": "-7.660375e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931152e+01",
+					"longitude": "-7.664153e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930808e+01",
+					"longitude": "-7.658574e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927085e+01",
+					"longitude": "-7.661343e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.931704e+01",
+					"longitude": "-7.656974e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.923503e+01",
+					"longitude": "-7.660587e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929183e+01",
+					"longitude": "-7.662241e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.933119e+01",
+					"longitude": "-7.667027e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.933119e+01",
+					"longitude": "-7.667027e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.933119e+01",
+					"longitude": "-7.667027e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.932603e+01",
+					"longitude": "-7.668266e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.932603e+01",
+					"longitude": "-7.661009e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929068e+01",
+					"longitude": "-7.664537e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930753e+01",
+					"longitude": "-7.660381e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932348e+01",
+					"longitude": "-7.660737e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934564e+01",
+					"longitude": "-7.661550e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931088e+01",
+					"longitude": "-7.659011e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927827e+01",
+					"longitude": "-7.657247e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928745e+01",
+					"longitude": "-7.654757e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929696e+01",
+					"longitude": "-7.658072e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929505e+01",
+					"longitude": "-7.656962e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934864e+01",
+					"longitude": "-7.653681e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.931618e+01",
+					"longitude": "-7.657304e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929875e+01",
+					"longitude": "-7.661849e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928177e+01",
+					"longitude": "-7.665255e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.927408e+01",
+					"longitude": "-7.662769e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.929871e+01",
+					"longitude": "-7.661782e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.934814e+01",
+					"longitude": "-7.657737e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.927866e+01",
+					"longitude": "-7.665660e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929837e+01",
+					"longitude": "-7.665872e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.934771e+01",
+					"longitude": "-7.657825e+01"
+				}
+			},
+
+			{ "type": "ARSON",
+				"location": {
+					"latitude": "3.933332e+01",
+					"longitude": "-7.670595e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929556e+01",
+					"longitude": "-7.665484e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.934978e+01",
+					"longitude": "-7.666620e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932385e+01",
+					"longitude": "-7.660610e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928823e+01",
+					"longitude": "-7.660288e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.937059e+01",
+					"longitude": "-7.656711e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.934711e+01",
+					"longitude": "-7.668015e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930666e+01",
+					"longitude": "-7.665397e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930705e+01",
+					"longitude": "-7.663022e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928655e+01",
+					"longitude": "-7.661134e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936257e+01",
+					"longitude": "-7.666315e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.935873e+01",
+					"longitude": "-7.662410e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928745e+01",
+					"longitude": "-7.654757e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929100e+01",
+					"longitude": "-7.661953e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.936510e+01",
+					"longitude": "-7.667088e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929247e+01",
+					"longitude": "-7.657065e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - RESIDENCE",
+				"location": {
+					"latitude": "3.929055e+01",
+					"longitude": "-7.663149e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929795e+01",
+					"longitude": "-7.663525e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.931196e+01",
+					"longitude": "-7.659922e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931868e+01",
+					"longitude": "-7.665399e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931868e+01",
+					"longitude": "-7.665399e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928685e+01",
+					"longitude": "-7.663262e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930778e+01",
+					"longitude": "-7.661356e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930546e+01",
+					"longitude": "-7.666559e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927587e+01",
+					"longitude": "-7.666512e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928244e+01",
+					"longitude": "-7.659999e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928976e+01",
+					"longitude": "-7.663762e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931440e+01",
+					"longitude": "-7.661204e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928324e+01",
+					"longitude": "-7.660022e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.932642e+01",
+					"longitude": "-7.668257e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927689e+01",
+					"longitude": "-7.663590e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931348e+01",
+					"longitude": "-7.664672e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935510e+01",
+					"longitude": "-7.659250e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "",
+					"longitude": ""
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929867e+01",
+					"longitude": "-7.658570e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933283e+01",
+					"longitude": "-7.666278e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.932954e+01",
+					"longitude": "-7.666796e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931285e+01",
+					"longitude": "-7.663132e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935133e+01",
+					"longitude": "-7.656060e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.931015e+01",
+					"longitude": "-7.662793e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935468e+01",
+					"longitude": "-7.658816e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933298e+01",
+					"longitude": "-7.661462e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928971e+01",
+					"longitude": "-7.660378e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930522e+01",
+					"longitude": "-7.658131e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.931218e+01",
+					"longitude": "-7.667139e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.933175e+01",
+					"longitude": "-7.654667e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.926846e+01",
+					"longitude": "-7.661178e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.930896e+01",
+					"longitude": "-7.658356e+01"
+				}
+			},
+
+			{ "type": "ASSAULT BY THREAT",
+				"location": {
+					"latitude": "3.931691e+01",
+					"longitude": "-7.663659e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933022e+01",
+					"longitude": "-7.656069e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.929557e+01",
+					"longitude": "-7.668988e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.929093e+01",
+					"longitude": "-7.657535e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928917e+01",
+					"longitude": "-7.665496e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935549e+01",
+					"longitude": "-7.669701e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933362e+01",
+					"longitude": "-7.655818e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931458e+01",
+					"longitude": "-7.663385e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.934576e+01",
+					"longitude": "-7.668847e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.935375e+01",
+					"longitude": "-7.669195e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.923693e+01",
+					"longitude": "-7.661480e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929747e+01",
+					"longitude": "-7.658831e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931148e+01",
+					"longitude": "-7.658860e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928639e+01",
+					"longitude": "-7.659793e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.928186e+01",
+					"longitude": "-7.665822e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.934333e+01",
+					"longitude": "-7.668541e+01"
+				}
+			},
+
+			{ "type": "HOMICIDE",
+				"location": {
+					"latitude": "3.928280e+01",
+					"longitude": "-7.656976e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.931706e+01",
+					"longitude": "-7.656950e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928204e+01",
+					"longitude": "-7.657978e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928635e+01",
+					"longitude": "-7.659686e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.934930e+01",
+					"longitude": "-7.669062e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "",
+					"longitude": ""
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.923269e+01",
+					"longitude": "-7.660769e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.935997e+01",
+					"longitude": "-7.669110e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928681e+01",
+					"longitude": "-7.656308e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.934220e+01",
+					"longitude": "-7.660962e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.928602e+01",
+					"longitude": "-7.662784e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.930471e+01",
+					"longitude": "-7.666371e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.927828e+01",
+					"longitude": "-7.661560e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.927233e+01",
+					"longitude": "-7.661253e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931697e+01",
+					"longitude": "-7.656513e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.928239e+01",
+					"longitude": "-7.668765e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.928543e+01",
+					"longitude": "-7.659677e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.928245e+01",
+					"longitude": "-7.668764e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930319e+01",
+					"longitude": "-7.662548e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930010e+01",
+					"longitude": "-7.662006e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.930319e+01",
+					"longitude": "-7.662548e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.930895e+01",
+					"longitude": "-7.661177e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.933217e+01",
+					"longitude": "-7.662805e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930775e+01",
+					"longitude": "-7.664149e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - COMMERCIAL",
+				"location": {
+					"latitude": "3.933217e+01",
+					"longitude": "-7.662805e+01"
+				}
+			},
+
+			{ "type": "AGG. ASSAULT",
+				"location": {
+					"latitude": "3.930825e+01",
+					"longitude": "-7.663490e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.933805e+01",
+					"longitude": "-7.662611e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.934843e+01",
+					"longitude": "-7.667491e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.931863e+01",
+					"longitude": "-7.661293e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.928290e+01",
+					"longitude": "-7.663253e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929809e+01",
+					"longitude": "-7.666430e+01"
+				}
+			},
+
+			{ "type": "LARCENY FROM AUTO",
+				"location": {
+					"latitude": "3.936901e+01",
+					"longitude": "-7.668373e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.929483e+01",
+					"longitude": "-7.662262e+01"
+				}
+			},
+
+			{ "type": "ROBBERY - STREET",
+				"location": {
+					"latitude": "3.933805e+01",
+					"longitude": "-7.662611e+01"
+				}
+			},
+
+			{ "type": "SHOOTING",
+				"location": {
+					"latitude": "3.930860e+01",
+					"longitude": "-7.663213e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.930279e+01",
+					"longitude": "-7.660635e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.928236e+01",
+					"longitude": "-7.665180e+01"
+				}
+			},
+
+			{ "type": "BURGLARY",
+				"location": {
+					"latitude": "3.930340e+01",
+					"longitude": "-7.658966e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.928643e+01",
+					"longitude": "-7.657134e+01"
+				}
+			},
+
+			{ "type": "AUTO THEFT",
+				"location": {
+					"latitude": "3.933022e+01",
+					"longitude": "-7.657924e+01"
+				}
+			},
+
+			{ "type": "LARCENY",
+				"location": {
+					"latitude": "3.929587e+01",
+					"longitude": "-7.660541e+01"
+				}
+			},
+
+			{ "type": "COMMON ASSAULT",
+				"location": {
+					"latitude": "3.929913e+01",
+					"longitude": "-7.662625e+01"
+				}
+			}
+		]
+	}
