@@ -36,4 +36,10 @@ public class SplashScreenActivity extends ActionBarActivity {
             startActivity(intent);
         }
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
+    }
 }

@@ -24,14 +24,25 @@
         android:id="@+id/numberEditText"
         android:layout_marginTop="20dp"/>
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeContactButton"
+        android:background="@drawable/floating_button_green"
+        android:src="@drawable/change_phone"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:layout_below="@id/numberEditText"
+        android:layout_centerHorizontal="true"
+        android:onClick="done"/>
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/safe_rock_pic"
-        android:background="#FFFFFF"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginBottom="10dp"/>
 
 </RelativeLayout>

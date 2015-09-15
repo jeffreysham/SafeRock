@@ -15,10 +15,12 @@
                 android:id="@+id/edit_text"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter your destination..."
+                android:hint="Your destination..."
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_toLeftOf="@+id/search"/>
+                android:layout_toLeftOf="@+id/search"
+                android:layout_alignTop="@+id/search"
+                android:layout_alignBottom="@+id/search"/>
             <Button
                 android:id="@+id/search"
                 android:layout_width="wrap_content"
@@ -31,7 +33,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true" />
+                android:layout_alignParentTop="true"
+                android:layout_alignTop="@+id/search"
+                android:layout_alignBottom="@+id/search"
+                android:textOn="Cold"
+                android:textOff="Hot"/>
 
         </RelativeLayout>
 

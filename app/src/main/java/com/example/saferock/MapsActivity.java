@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -17,8 +16,6 @@ import android.os.AsyncTask;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -38,6 +35,9 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.android.gms.maps.model.TileOverlay;
+import com.google.android.gms.maps.model.TileOverlayOptions;
+import com.google.maps.android.heatmaps.HeatmapTileProvider;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -52,6 +52,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
@@ -73,6 +74,8 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
     private Context context = this;
     private String previousSignal;
     private Switch theSwitch;
+    private HeatmapTileProvider heatMapProvider;
+    private TileOverlay heatMapOverlay;
 
     @Override
     public void onLocationChanged(Location location) {
@@ -126,12 +129,6 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
         searchBar = (EditText)findViewById(R.id.edit_text);
         searchButton = (Button)findViewById(R.id.search);
-
-        searchBar.setAlpha(1);
-        searchButton.setAlpha(1);
-
-        //searchBar.getBackground().setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP);
-        //searchButton.getBackground().setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP);
 
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -292,7 +289,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
         String json = null;
         try {
             AssetManager assetManager = getAssets();
-            InputStream is = assetManager.open("baltimore_crime_data_heat.json");
+            InputStream is = assetManager.open("baltimore_crime_data_recent.json");
 
             int size = is.available();
 
@@ -350,8 +347,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
         mMap.setMyLocationEnabled(true);
         markerList = new ArrayList<>();
         latLngList = new ArrayList<>();
-        //CameraUpdate center=CameraUpdateFactory.newLatLng(new LatLng(mMap.getMyLocation().getLatitude(),mMap.getMyLocation().getLongitude()));
-        //CameraUpdate zoom=CameraUpdateFactory.zoomTo(15);
+
         LatLng firstLatLng = new LatLng(39.3299013, -76.6205177);;
         try {
             mMap.clear();
@@ -383,15 +379,21 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
     }
 
     public void startHeatMapJSON() throws JSONException {
+        //TODO: Test HeatMap
+        //TODO: Test remove heat map (mMap.clear())
+        //if it doesn't work, then use heatMapOverlay.remove()
         JSONObject jsonObject = new JSONObject(loadHeatMapFromAsset());
         JSONArray jsonArray = jsonObject.getJSONArray("top");
+        List<LatLng> latLngList = new ArrayList<>();
         for (int i = 0; i < jsonArray.length();i++) {
             JSONObject objectInside = jsonArray.getJSONObject(i);
             JSONObject latLng = objectInside.getJSONObject("location");
             double lat = Double.parseDouble(latLng.getString("latitude"));
             double lng = Double.parseDouble(latLng.getString("longitude"));
 
-            String color = latLng.getString("color");
+            latLngList.add(new LatLng(lat,lng));
+
+            /*String color = latLng.getString("color");
 
             switch (color) {
                 case "red":
@@ -410,9 +412,12 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
                 default:
                     markerList.add(mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).flat(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.red_dot))));
                     break;
-            }
+            }*/
 
         }
+
+        heatMapProvider = new HeatmapTileProvider.Builder().data(latLngList).build();
+        heatMapOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(heatMapProvider));
     }
 
     public void startJSON() throws JSONException{
@@ -451,34 +456,6 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
                             }
 
                         }
-
-
-                        /*dialog.cancel();
-                        final EditText edittext= new EditText(context);
-
-                        AlertDialog.Builder inputAlert = new AlertDialog.Builder(context);
-                        inputAlert.setTitle("Enter waypoint")
-                                .setView(edittext)
-                                .setPositiveButton("Done", new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        mMap.clear();
-                                        String text = searchBar.getText().toString().trim();
-                                        String wayPointText = edittext.getText().toString().trim();
-                                        if (text.length() > 0 && wayPointText.length() > 0) {
-                                            if (currentLocation != null) {
-                                                new RouteTask(context, currentLocation.getLatitude()+","+currentLocation.getLongitude(), text, mMap, false, wayPointText).execute();
-                                                dialog.cancel();
-                                            } else {
-                                                new RouteTask(context, "Johns Hopkins University", text, mMap, false, wayPointText).execute();
-                                                dialog.cancel();
-                                            }
-                                        }
-                                    }
-                                })
-                                .setCancelable(true);
-
-                        inputAlert.create().show();*/
                     }
                 })
                 .setNegativeButton("Fastest", new DialogInterface.OnClickListener() {
@@ -510,7 +487,6 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
         private String end;
         private GoogleMap googleMap;
         private boolean fastest;
-        private String waypoint;
 
         public RouteTask(Context context, String start, String end, GoogleMap googleMap, boolean fastest) {
             this.context = context;
@@ -519,18 +495,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
             this.end = end;
             this.googleMap = googleMap;
             this.fastest = fastest;
-            this.waypoint = "";
         }
-
-        /*public RouteTask(Context context, String start, String end, GoogleMap googleMap, boolean fastest, String waypoint) {
-            this.context = context;
-            this.lstLatLng = new ArrayList<LatLng>();
-            this.start = start;
-            this.end = end;
-            this.googleMap = googleMap;
-            this.fastest = fastest;
-            this.waypoint = waypoint;
-        }*/
 
         @Override
         protected Boolean doInBackground(Void... params) {
@@ -627,14 +592,17 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
                         float distanceBetween = theLocation.distanceTo(tempLoc);
                         if (distanceBetween <= 300) {
-                            double newLat = ((double) lat / 1E5) - .001;//.00005;
-                            double newLng = (double) lng / 1E5 - .001;//.00005;
+                            //TODO: Test if this is better
+                            double newLat = 0;
+                            double newLng = 0;
+                            if (theLocation.getLongitude() < tempLoc.getLongitude()) {
+                                newLat = ((double) lat / 1E5) - .001;//.00005;
+                                newLng = (double) lng / 1E5 - .001;//.00005;
+                            } else if (theLocation.getLongitude() >= tempLoc.getLongitude()) {
+                                newLat = ((double) lat / 1E5) + .001;//.00005;
+                                newLng = (double) lng / 1E5 + .001;//.00005;
+                            }
 
-                            //this.lstLatLng = new ArrayList<LatLng>();
-
-                            //waypoint+="|via:"+ newLat + "," + newLng;
-
-                            //return false;
                             lstLatLng.add(new LatLng(newLat, newLng));
                             added = true;
                             break;
@@ -693,34 +661,6 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
             return true;
         }
 
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_map, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.contact) {
-            changeEmerContact(null);
-            return true;
-        } else if (id == R.id.sendWarning) {
-            sendNotification(null);
-        } else if (id == R.id.callContact) {
-            callEmergencyContact(null);
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
     public void changeEmerContact(View v) {
